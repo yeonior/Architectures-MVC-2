@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2D1660F2710BC6F00827844 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1660E2710BC6F00827844 /* Card.swift */; };
 		A2DA11CD270F3ACC00B851C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA11CC270F3ACC00B851C2 /* AppDelegate.swift */; };
 		A2DA11CF270F3ACC00B851C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA11CE270F3ACC00B851C2 /* SceneDelegate.swift */; };
 		A2DA11D1270F3ACC00B851C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA11D0270F3ACC00B851C2 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2D1660E2710BC6F00827844 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		A2DA11C9270F3ACC00B851C2 /* MVC-Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC-Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DA11CC270F3ACC00B851C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2DA11CE270F3ACC00B851C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				A2DA11CC270F3ACC00B851C2 /* AppDelegate.swift */,
 				A2DA11CE270F3ACC00B851C2 /* SceneDelegate.swift */,
+				A2D1660E2710BC6F00827844 /* Card.swift */,
 				A2DA11D0270F3ACC00B851C2 /* ViewController.swift */,
 				A2DA11D2270F3ACC00B851C2 /* Main.storyboard */,
 				A2DA11D5270F3ACC00B851C2 /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 				A2DA11D1270F3ACC00B851C2 /* ViewController.swift in Sources */,
 				A2DA11CD270F3ACC00B851C2 /* AppDelegate.swift in Sources */,
 				A2DA11CF270F3ACC00B851C2 /* SceneDelegate.swift in Sources */,
+				A2D1660F2710BC6F00827844 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
