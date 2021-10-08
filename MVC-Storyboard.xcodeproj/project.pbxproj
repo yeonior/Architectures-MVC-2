@@ -41,6 +41,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2D166122710BDD200827844 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1660E2710BC6F00827844 /* Card.swift */,
+				A2D166102710BD2400827844 /* ConcentrationGame.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A2D166132710BDDF00827844 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2DA11D0270F3ACC00B851C2 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A2D166142710BDE900827844 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A2DA11D5270F3ACC00B851C2 /* Assets.xcassets */,
+				A2DA11D7270F3ACC00B851C2 /* LaunchScreen.storyboard */,
+				A2DA11DA270F3ACC00B851C2 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		A2D166152710BE0E00827844 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2DA11D2270F3ACC00B851C2 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A2DA11C0270F3ACC00B851C2 = {
 			isa = PBXGroup;
 			children = (
@@ -62,13 +97,10 @@
 			children = (
 				A2DA11CC270F3ACC00B851C2 /* AppDelegate.swift */,
 				A2DA11CE270F3ACC00B851C2 /* SceneDelegate.swift */,
-				A2D1660E2710BC6F00827844 /* Card.swift */,
-				A2D166102710BD2400827844 /* ConcentrationGame.swift */,
-				A2DA11D0270F3ACC00B851C2 /* ViewController.swift */,
-				A2DA11D2270F3ACC00B851C2 /* Main.storyboard */,
-				A2DA11D5270F3ACC00B851C2 /* Assets.xcassets */,
-				A2DA11D7270F3ACC00B851C2 /* LaunchScreen.storyboard */,
-				A2DA11DA270F3ACC00B851C2 /* Info.plist */,
+				A2D166122710BDD200827844 /* Models */,
+				A2D166132710BDDF00827844 /* Controllers */,
+				A2D166152710BE0E00827844 /* Views */,
+				A2D166142710BDE900827844 /* Support */,
 			);
 			path = "MVC-Storyboard";
 			sourceTree = "<group>";
@@ -296,7 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U3JHK4U826;
-				INFOPLIST_FILE = "MVC-Storyboard/Info.plist";
+				INFOPLIST_FILE = "MVC-Storyboard/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U3JHK4U826;
-				INFOPLIST_FILE = "MVC-Storyboard/Info.plist";
+				INFOPLIST_FILE = "MVC-Storyboard/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
