@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     @IBOutlet var buttonCollection: [UIButton]!
     @IBOutlet weak var touchLabel: UILabel!
     
+    lazy var game = ConcentrationGame(numberOfPairsOfCards: (buttonCollection.count + 1) / 2)
+    
     let emojiCollection = ["🏄‍♀️", "🎭", "🏄‍♀️", "🎭"]
     var touches = 0 {
         didSet {
@@ -24,20 +26,30 @@ class ViewController: UIViewController {
         
     }
     
-    func flipButton(emoji: String, button: UIButton) {
-        if button.currentTitle == emoji {
-            button.setTitle("", for: .normal)
-            button.backgroundColor = .systemBlue
-        } else {
-            button.setTitle(emoji, for: .normal)
-            button.backgroundColor = .white
+    func emojiIdentifier(for card: Card) -> String {
+        
+        return ""
+    }
+    
+    func updateViewModel() {
+        for index in buttonCollection.indices {
+            let button = buttonCollection[index]
+            let card = game.cards[index]
+            if card.isFaceUp {
+                button.setTitle(emojiIdentifier(for: card), for: .normal)
+                button.backgroundColor = .white
+            } else {
+                button.setTitle("", for: .normal)
+                button.backgroundColor = card.isMatched ? .clear : .systemBlue
+            }
         }
     }
     
     @IBAction func buttonAction(_ sender: UIButton) {
         touches += 1
         if let buttonIndex = buttonCollection.firstIndex(of: sender) {
-            flipButton(emoji: emojiCollection[buttonIndex], button: sender)
+            game.chooseCard(at: buttonIndex)
+            updateViewModel()
         }
     }
 }
