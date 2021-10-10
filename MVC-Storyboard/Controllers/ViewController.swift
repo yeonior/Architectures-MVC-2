@@ -13,8 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var touchLabel: UILabel!
     
     lazy var game = ConcentrationGame(numberOfPairsOfCards: (buttonCollection.count + 1) / 2)
-    
-    let emojiCollection = ["🏄‍♀️", "🎭", "🏄‍♀️", "🎭"]
+    var emojiCollection = ["🏠", "🎭", "🩰", "🏄‍♀️", "🎤"]
+    var emojiDicitonary = [Int:String]()
     var touches = 0 {
         didSet {
             touchLabel.text = "Touches: \(touches)"
@@ -27,8 +27,12 @@ class ViewController: UIViewController {
     }
     
     func emojiIdentifier(for card: Card) -> String {
+        if emojiDicitonary[card.identifier] == nil {
+            let randomIndex = Int(arc4random_uniform(UInt32(emojiCollection.count)))
+            emojiDicitonary[card.identifier] = emojiCollection.remove(at: randomIndex)
+        }
         
-        return ""
+        return emojiDicitonary[card.identifier] ?? ""
     }
     
     func updateViewModel() {
