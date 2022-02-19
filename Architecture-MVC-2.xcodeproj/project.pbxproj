@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		A2D1660E2710BC6F00827844 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		A2D166102710BD2400827844 /* ConcentrationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationGame.swift; sourceTree = "<group>"; };
-		A2DA11C9270F3ACC00B851C2 /* MVC-Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC-Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DA11C9270F3ACC00B851C2 /* Architecture-MVC-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Architecture-MVC-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DA11CC270F3ACC00B851C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2DA11CE270F3ACC00B851C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A2DA11D0270F3ACC00B851C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		A2DA11C0270F3ACC00B851C2 = {
 			isa = PBXGroup;
 			children = (
-				A2DA11CB270F3ACC00B851C2 /* MVC-Storyboard */,
+				A2DA11CB270F3ACC00B851C2 /* Architecture-MVC-2 */,
 				A2DA11CA270F3ACC00B851C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,12 +87,12 @@
 		A2DA11CA270F3ACC00B851C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2DA11C9270F3ACC00B851C2 /* MVC-Storyboard.app */,
+				A2DA11C9270F3ACC00B851C2 /* Architecture-MVC-2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A2DA11CB270F3ACC00B851C2 /* MVC-Storyboard */ = {
+		A2DA11CB270F3ACC00B851C2 /* Architecture-MVC-2 */ = {
 			isa = PBXGroup;
 			children = (
 				A2DA11CC270F3ACC00B851C2 /* AppDelegate.swift */,
@@ -102,15 +102,15 @@
 				A2D166152710BE0E00827844 /* Views */,
 				A2D166142710BDE900827844 /* Support */,
 			);
-			path = "MVC-Storyboard";
+			path = "Architecture-MVC-2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2DA11C8270F3ACC00B851C2 /* MVC-Storyboard */ = {
+		A2DA11C8270F3ACC00B851C2 /* Architecture-MVC-2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2DA11DD270F3ACC00B851C2 /* Build configuration list for PBXNativeTarget "MVC-Storyboard" */;
+			buildConfigurationList = A2DA11DD270F3ACC00B851C2 /* Build configuration list for PBXNativeTarget "Architecture-MVC-2" */;
 			buildPhases = (
 				A2DA11C5270F3ACC00B851C2 /* Sources */,
 				A2DA11C6270F3ACC00B851C2 /* Frameworks */,
@@ -120,9 +120,9 @@
 			);
 			dependencies = (
 			);
-			name = "MVC-Storyboard";
+			name = "Architecture-MVC-2";
 			productName = "MVC-Storyboard";
-			productReference = A2DA11C9270F3ACC00B851C2 /* MVC-Storyboard.app */;
+			productReference = A2DA11C9270F3ACC00B851C2 /* Architecture-MVC-2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,7 +139,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A2DA11C4270F3ACC00B851C2 /* Build configuration list for PBXProject "MVC-Storyboard" */;
+			buildConfigurationList = A2DA11C4270F3ACC00B851C2 /* Build configuration list for PBXProject "Architecture-MVC-2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -152,7 +152,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2DA11C8270F3ACC00B851C2 /* MVC-Storyboard */,
+				A2DA11C8270F3ACC00B851C2 /* Architecture-MVC-2 */,
 			);
 		};
 /* End PBXProject section */
@@ -328,12 +328,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U3JHK4U826;
-				INFOPLIST_FILE = "MVC-Storyboard/Support/Info.plist";
+				INFOPLIST_FILE = "Architecture-MVC-2/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.MVC-Storyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVC-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -347,12 +347,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U3JHK4U826;
-				INFOPLIST_FILE = "MVC-Storyboard/Support/Info.plist";
+				INFOPLIST_FILE = "Architecture-MVC-2/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.MVC-Storyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVC-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -362,7 +362,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2DA11C4270F3ACC00B851C2 /* Build configuration list for PBXProject "MVC-Storyboard" */ = {
+		A2DA11C4270F3ACC00B851C2 /* Build configuration list for PBXProject "Architecture-MVC-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2DA11DB270F3ACC00B851C2 /* Debug */,
@@ -371,7 +371,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2DA11DD270F3ACC00B851C2 /* Build configuration list for PBXNativeTarget "MVC-Storyboard" */ = {
+		A2DA11DD270F3ACC00B851C2 /* Build configuration list for PBXNativeTarget "Architecture-MVC-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2DA11DE270F3ACC00B851C2 /* Debug */,

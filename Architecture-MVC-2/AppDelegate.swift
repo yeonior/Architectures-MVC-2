@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  MVC-Storyboard
+//  Architecture-MVC-2
 //
 //  Created by ruslan on 07.10.2021.
 //

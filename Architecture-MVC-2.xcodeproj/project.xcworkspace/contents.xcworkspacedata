@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/yeomac/Desktop/XcodeProjects/Architecture-MVC-2/Architecture-MVC-2.xcodeproj">
    </FileRef>
 </Workspace>

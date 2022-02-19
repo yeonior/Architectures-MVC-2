@@ -1,6 +1,6 @@
 //
 //  ConcentrationGame.swift
-//  MVC-Storyboard
+//  Architecture-MVC-2
 //
 //  Created by ruslan on 08.10.2021.
 //
